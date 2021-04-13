@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 227d4e9d21d5eaa45baebcd12a8a57ac, type: 3}
+  m_Name: WaveWeapon
+  m_EditorClassIdentifier: 
+  currentWeaponSpr: {fileID: 21300000, guid: b00310c4988bf1749b0534fd958fd29a, type: 3}
+  bulletPrefab: {fileID: 1782496383991650628, guid: 3edc2face083f8340b3d1752af713e70,
+    type: 3}
+  fireRate: 0.5
+  damage: 50
+  weaponAmmu: 30
+  weaponReloadSeconds: 1
+  shootClips:
+  - {fileID: 8300000, guid: dcdaf2190073862498aad5343e3dc909, type: 3}
+  reloadClip: {fileID: 0}

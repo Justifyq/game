@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 227d4e9d21d5eaa45baebcd12a8a57ac, type: 3}
+  m_Name: BasicWeapon
+  m_EditorClassIdentifier: 
+  currentWeaponSpr: {fileID: 21300000, guid: aa6751de14dc73e4a92443e02726f064, type: 3}
+  bulletPrefab: {fileID: 596121235443266910, guid: 6451ca0da0259dc40b7644bf83b18bf7,
+    type: 3}
+  fireRate: 2
+  damage: 20
+  weaponAmmu: 30
+  weaponReloadSeconds: 1
+  shootClips:
+  - {fileID: 8300000, guid: e609d1b69b52dc34ea9f5f8d602cccdc, type: 3}
+  - {fileID: 8300000, guid: 42181c4d65af1c84aadd989d34af75c7, type: 3}
+  reloadClip: {fileID: 0}
